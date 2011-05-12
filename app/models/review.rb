@@ -1,4 +1,4 @@
-class Review < ActiveRecord::Base
+ class Review < ActiveRecord::Base
   belongs_to :product, :counter_cache => true
   has_many   :feedback_reviews
 
