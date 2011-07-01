@@ -42,7 +42,7 @@ ru:
   by: by
   submitted_on: Добавлено
   based_upon: "на основе"
-  review:
+  review_count:
     zero: "0 отзывов"
     one: "%{count} отзыв"
     few: "%{count} отзыва"

@@ -28,7 +28,7 @@ en:
   original_version: 'Original version'
   out_of_5: "out of 5"
   rating: rating
-  review:
+  review_count:
     one: one review
     other: %{count} reviews
   review_content: Content

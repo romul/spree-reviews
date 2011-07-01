@@ -35,6 +35,6 @@ de-CH:
   by: Von
   submitted_on: Eingeschickt am
   based_upon: basiert auf
-  review:
+  review_count:
     one: einer Bewertung
     other: %{count} Bewertungen
