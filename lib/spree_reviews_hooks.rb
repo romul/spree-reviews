@@ -31,5 +31,5 @@ Deface::Override.new(
   :virtual_path => "admin/configurations/index",
   :name => "reviews_admin_configurations_menu",
   :insert_bottom => "[data-hook='admin_configurations_menu']",
-  :text => "<%= configurations_menu_item(t('reviews.review_settings'), admin_review_settings_path, t('reviews.manage_review_settings')) %>",
+  :text => "<%= configurations_menu_item(t('review_settings'), admin_review_settings_path, t('manage_review_settings')) %>",
   :disabled => false)
