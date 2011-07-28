@@ -1,4 +1,11 @@
 Deface::Override.new(
+  :virtual_path => "products/show",
+  :name => "reviews_after_product_properties",
+  :insert_after => "[data-hook='product_properties']",
+  :partial => "shared/reviews",
+  :disabled => false)
+
+Deface::Override.new(
   :virtual_path => "layouts/spree_application",
   :name => "reviews_inside_head",
   :insert_bottom => "[data-hook='inside_head']",
