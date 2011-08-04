@@ -37,7 +37,7 @@ en:
   review_management_description: Manage the user-submitted reviews
   review_successfully_submitted: Review was successfully submitted
   review_title: Title
-  review_settings:
+  spree_reviews:
     settings: Review Settings
     manage_settings: Control the display of reviews
     preview_size: Size of the review snippets

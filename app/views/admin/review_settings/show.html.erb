@@ -1,14 +1,14 @@
 <%= render :partial => 'admin/shared/configuration_menu' %>
 
-<h1><%= t("review_settings.settings") %></h1>
+<h1><%= t("spree_reviews.settings") %></h1>
 
 <table>
   <tr>
-    <th scope="row"><%= t("review_settings.include_unapproved") %>:</th>
+    <th scope="row"><%= t("spree_reviews.include_unapproved") %>:</th>
     <td><%= Spree::Reviews::Config[:include_unapproved_reviews] ? t('yes') : t('no') %></td>
   </tr>
   <tr>
-    <th scope="row"><%= t("review_settings.preview_size") %>:</th>
+    <th scope="row"><%= t("spree_reviews.preview_size") %>:</th>
     <td><%= Spree::Reviews::Config[:preview_size] %></td>
   </tr>
 </table>
