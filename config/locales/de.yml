@@ -13,12 +13,13 @@ de:
   submit_your_review: Meinung übertragen
   review_content: Inhalt
   review_title: Titel
-  review_settings: Meinungseinstellungen
-  manage_review_settings: Meinungsdarstellungesoptionen
-  preview_size: Größe der Meinungen
-  include_unapproved: Unveröffentlichte Meinungen anzeigen
-  your_name: Dein Anzeigename
-  your_location: Dein Ort
+  review_settings:
+    settings: Meinungseinstellungen
+    manage_settings: Meinungsdarstellungesoptionen
+    preview_size: Größe der Meinungen
+    include_unapproved: Unveröffentlichte Meinungen anzeigen
+    your_name: Dein Anzeigename
+    your_location: Dein Ort
   average_customer_rating: Durchschnittliche Bewertung
   the_fine_print: Kleingedrucktes
   terms_text: Alle Meinungen werden müssen unseren Bedingen einhalten

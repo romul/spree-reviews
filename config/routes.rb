@@ -7,7 +7,7 @@ Rails.application.routes.draw do
       end
       resources :feedback_reviews
     end
-    resource :review_settings
+    resource :settings
   end
 
   resources :products do
