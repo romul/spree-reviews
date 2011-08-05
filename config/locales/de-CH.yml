@@ -13,9 +13,9 @@ de-CH:
   submit_your_review: Meinung übertragen
   review_content: Inhalt
   review_title: Titel
-  reviews:
-    review_settings: Meinungseinstellungen
-    manage_review_settings: Meinungsdarstellungesoptionen
+  spree_reviews:
+    settings: Meinungseinstellungen
+    manage_settings: Meinungsdarstellungesoptionen
     preview_size: Größe der Meinungen
     include_unapproved: Unveröffentlichte Meinungen anzeigen
     your_name: Dein Anzeigename
