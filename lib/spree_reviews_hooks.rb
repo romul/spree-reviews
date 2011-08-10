@@ -9,21 +9,6 @@
 #   :disabled => false)
 
 Deface::Override.new(
-  :virtual_path => "layouts/spree_application",
-  :name => "reviews_inside_head",
-  :insert_bottom => "[data-hook='inside_head'], #inside-head[data-hook]",
-  :text => "<%= stylesheet_link_tag('reviews.css') %>",
-  :disabled => false)
-
-Deface::Override.new(
-  :virtual_path => "layouts/spree_application",
-  :name => "reviews_footer_right",
-  :insert_after => "[data-hook='footer'], #footer[data-hook]",
-  :text => "<%= javascript_include_tag('jquery.rating.js') %>
-  <%= javascript_tag(\"$(document).ready(function(){$('.stars').rating({required:true});});\") %>",
-  :disabled => false)
-
-Deface::Override.new(
   :virtual_path => "admin/shared/_product_sub_menu",
   :name => "reviews_admin_product_sub_tabs",
   :insert_bottom => "[data-hook='admin_product_sub_tabs'], #admin_product_sub_tabs[data-hook]",
