@@ -28,7 +28,7 @@
       </td>
       <td>
         <%= review.title %>
-        <%= t('for') %> <%= link_to review.product.name, product_path(review.product) %>
+        <%= t('for') %> <%= link_to review.product.name, product_path(review.product), :title => "locale: #{review.locale}" %>
       </td>
       <td width="50%">
         <%= h review.review %>
