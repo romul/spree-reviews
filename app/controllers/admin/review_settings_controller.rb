@@ -1,6 +1,7 @@
 class Admin::ReviewSettingsController < Admin::BaseController
   def update
     # workaround for unset checkbox behaviour
+    params[:preferences] ||= {}
     params[:preferences][:include_unapproved_reviews] = false if params[:preferences][:include_unapproved_reviews].blank?
     params[:preferences][:feedback_rating] = false            if params[:preferences][:feedback_rating].blank?
     params[:preferences][:show_email] = false                 if params[:preferences][:show_email].blank?
