@@ -1,3 +1,3 @@
-ProductsController.class_eval do
+Spree::ProductsController.class_eval do
   helper :reviews
 end
